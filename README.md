@@ -1,2 +1,2 @@
 # 12.01-FCC-Responsive-Web-Design
- Certification Project
+ Certification Project for the Free Code Camp Responsive Web Design Course
