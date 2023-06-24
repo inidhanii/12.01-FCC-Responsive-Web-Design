@@ -1,0 +1,38 @@
+main {
+  font-family: sans-serif;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#img-div {
+  flex-direction: column;
+  width: 25%;
+  align-content: center;
+  margin: 10px auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+
+caption {
+  text-align: center;
+}

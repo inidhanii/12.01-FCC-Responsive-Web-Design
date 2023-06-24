@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <title>Mental Health Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <h1 id="title">Survey For Mental Health Disorder</h1>
+    <p id="description">Thank you for filling this feedback survey, dear patients</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Your Full Name<input id="name" type="text" placeholder="John Smith" required></label>
+        <label for="email" id="email-label">Your Email<input id="email" type="email" placeholder="jsmith@jsmith.com" required></label>
+        <label for="number" id="number-label">Your Age (optional)<input id="number" type="number" min="18" max="120" placeholder="35"></label>
+      </fieldset>
+      <fieldset>
+        <label>Your Mental Health Issue
+          <select name="mental-health" id="dropdown">
+            <option value="healthy">Healthy</option>
+            <option value="anxiety">Anxiety Disorder</option>
+            <option value="depression">Depression</option>
+            <option value="panicattack">Panic Attack</option>
+            <option value="bipolar">Bipolar</option>
+            <option value="ptsd">Post Trauma Stress Disorder</option>
+            <option value="schizophrenia">Schizophrenia</option>
+            <option value="psychosis">Psychosis</option>
+            <option value="paranoia">Paranoia</option>
+          </select>
+        </label>
+        <label>Tell us about yourself
+          <textarea placeholder="I have a hard time fitting in..."></textarea>
+        </label>
+        Your living arrangement
+        <label><input type="radio" name="living" value="livingalone" checked> Living Alone</label>
+        <label><input type="radio" name="living" value="livingfamily"> Living With Family</label>
+        <label><input type="radio" name="living" value="livingcaretaker"> Living With Caretaker</label>
+      </fieldset>
+      <fieldset>
+        <label><input type="checkbox" value="antisocial"> I have difficulty being around people</label>
+        <label><input type="checkbox" value="difficultlife"> I encounter difficulty in my daily life</label>
+        <label><input type="checkbox" value="difficultwork"> I have difficulty in my work</label>
+        <label><input type="checkbox" value="difficultfriends"> I have a hard time meeting new people</label>
+        <label><input type="checkbox" value="difficultemotion"> I have difficulty controlling my emotion</label>
+        <label><input type="checkbox" value="difficulttime"> I have difficulty in managing my time</label>
+        <label><input type="checkbox" value="difficulthelp"> I have seeked help before(medication, therapy or counseling)</label>
+        <label><input type="checkbox" value="difficultdiagnose"> I have been professionally diagnosed</label>
+        <label><input type="checkbox" value="suicidethought"> I have thought about suicide before</label>
+        <label><input type="checkbox" value="terms-and-conditions" required> I have read the <a href="https://chat.openai.com/chat">terms and conditions</label>
+      </fieldset>
+      <input id="submit" type="submit">
+    </form>
+  </body
+  <footer>
+  </footer>
+
+</html>
